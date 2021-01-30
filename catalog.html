@@ -6,7 +6,7 @@
   </head>
   <body>
 <header>
-	<a href="#">ТЕХНОМАРТ</a>
+	<a href="index.html">ТЕХНОМАРТ</a>
   	<form>
       <input name="s" placeholder="Поиск:" type="search">
  	  </form>
@@ -32,9 +32,9 @@
     </section>
      	<nav>
       	<ul>
-       		<li><a href="#">Главная</a></li>
+       		<li><a href="index.html">Главная</a></li>
         	<li><a href="#">Компания</a></li>
-        	<li><a href="#">Каталог</a></li>
+        	<li><a href="catalog.html">Каталог</a></li>
         	<li><a href="#">Новости</a></li>
         	<li><a href="#">Спецпредложения</a></li>
         	<li><a href="#">Доставка</a></li>
@@ -44,9 +44,15 @@
 </header>
 
 <main>
-  <ul>
+  <ul class="breadcrumbs">
     <li>
-      <a href="#">Каталог</a>
+      <a href="index.html">
+        <img src="#">
+        Главная
+      </a>
+    </li>
+    <li>
+      <a href="catalog.html">Каталог</a>
     </li>
     <li>
       <a href="#">Инструменты</a>
@@ -55,34 +61,34 @@
       Перфораторы
     </li>
   </ul>
-  <h2>Перфораторы</h2>
+  <h1>Перфораторы</h1>
   <section>
     <h2>Фильтр товаров</h2>
+    <form method="get" action="https://echo.htmlacademy.ru">
     <input type="range" min="0" max="30000" step="1" value="30000">
     <br>
     <p>0 - 30000</p>
-    <form method="get" action="https://echo.htmlacademy.ru">
       <fieldset>
         <legend>Производители:</legend>
         <ul>
           <li>
-            <input type="checkbox" name="manufacturers" id="filter-bosch" checked>
+            <input type="checkbox" name="bosch" id="filter-bosch" checked>
             <label for="filter-bosch">BOSCH</label>
           </li>
           <li>
-            <input type="checkbox" name="manufacturers" id="filter-interscol">
+            <input type="checkbox" name="interscol" id="filter-interscol">
             <label for="filter-interscol">Интерскол</label>
           </li>
           <li>
-            <input type="checkbox" name="manufacturers" id="filter-makita">
+            <input type="checkbox" name="makita" id="filter-makita">
             <label for="filter-makita">Makita</label>
           </li>
           <li>
-            <input type="checkbox" name="manufacturers" id="filter-dewalt">
+            <input type="checkbox" name="dewalt" id="filter-dewalt">
             <label for="filter-dewalt">DEWALT</label>
           </li>
           <li>
-            <input type="checkbox" name="manufacturers" id="filter-hitachi">
+            <input type="checkbox" name="hitachi" id="filter-hitachi">
             <label for="filter-hitachi">Hitachi</label>
           </li>
         </ul>
@@ -109,6 +115,8 @@
       <li><a href="">По цене</a></li>
       <li><a href="">По типу</a></li>
       <li><a href="">По функционалу</a></li>
+      <li><a href="">От большего к меньшему</a></li>
+      <li><a href="">От меньшего к большему</a></li>
     </ul>
   </section>
   <section>
@@ -149,6 +157,7 @@
           <del>30500</del>
           <button type="button">25500</button>
         </p>
+        <span>NEW</span>
       </li>
       <li>
         <a href="#">
@@ -161,6 +170,7 @@
           <del>22500</del>
           <button type="button">15500</button>
         </p>
+        <span>NEW</span>
       </li>
       <li>
         <a href="#">
@@ -184,6 +194,7 @@
         <p>
           <button type="button">12500</button>
         </p>
+        <span>NEW</span>
       </li>
       <li>
         <a href="#">
@@ -196,6 +207,7 @@
           <del>22500</del>
           <button type="button">15500</button>
         </p>
+        <span>NEW</span>
       </li>
       <li>
         <a href="#">
@@ -219,6 +231,7 @@
         <p>
           <button type="button">12500</button>
         </p>
+        <span>NEW</span>
       </li>
     </ul>
     <ul>
@@ -245,16 +258,17 @@
 </main>
 <footer>
   <section>
-    <a href="#">Техномарт</a>
+    <a href="index.html">Техномарт</a>
+    <p>
       <span>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
       <a href="tel:+78125550555">+7 (812) 555-05-55</a>
     </p>
   </section>
   <section>
     <ul>
-      <li><a href="#">Компания</a></li>
+      <li><a href="index.html">Компания</a></li>
       <li><a href="#">Новости</a></li>
-      <li><a href="#">Каталог</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
       <li><a href="#">Доставка</a></li>
       <li><a href="#">Контакты</a></li>
     </ul>
