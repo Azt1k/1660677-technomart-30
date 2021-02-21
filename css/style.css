@@ -1,0 +1,505 @@
+/* Variables */
+
+:root {
+	--basic-white: #ffffff;
+   	--basic-black: #000000;
+   	--basic-extra-light: #F9F5F0;
+   	--basic-dark-gray: #32425C;
+   	--basic-red: #EE3643;
+   	--basic-dark: #F1F5F7;
+   	--basic-dark-blue: #293449;
+   	--basic-gold: #FFD180;
+   	--basic-aliceblue: #F2F6F8;
+   	--basic-light-brown: #F7F3EC;
+   	--basic-dark-red: #BA2732;
+   	--basic-grey-light: #C5C5C5;
+}
+
+body {
+	min-width: 960px;
+	margin: 0;
+	padding: 0;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 700;
+	color: var(--basic-black);
+	text-transform: none;
+	background-color: var(--basic-white);
+	background-image: url("../img/bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Main-navigation */
+
+.page-body {
+	background-color: var(--basic-black);
+}
+
+.header-up {
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white);
+	background-color: var(--basic-dark-blue);
+}
+
+.header-up-wrapper, .site-navigation {
+	list-style: none;
+}
+
+.header-middle,
+.header-down {
+	background-color: #F1F5F7;
+}
+
+.header-middle-title,
+.telephone {
+	color: var(--basic-red);
+}
+
+.telephone {
+	border: 3px solid #FFFFFF;
+}
+
+.header-middle-title p {
+	font-family: Cuprum;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+	text-decoration: none;
+}
+.address {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: var(--basic-dark-gray);
+	text-decoration: none;
+}
+
+
+/* User navigation */
+
+.header-up a,
+.site-navigation a {
+  color: var(--basic-white);
+}
+.user-navigation a {
+	color: var(--basic-black);
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 21px;
+	text-decoration: none;
+}
+
+.user-navigation a:hover,
+.user-navigation a:focus {
+	color: var(--basic-red);
+}
+
+
+.header-up a:hover,
+.header-up a:focus,
+.site-navigation a:hover,
+.site-navigation a:focus {
+	opacity: 50%;
+}
+
+.site-navigation {
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white);
+	background-color: var(--basic-dark-gray);
+	text-decoration: none;
+}
+
+/* needed */
+
+.needed {
+	list-style: none;
+}
+
+ul.needed li h3 {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+	color: var(--basic-white);
+}
+
+.needed a {
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--basic-white);
+	text-transform: uppercase;
+}
+
+.needed a:hover,
+.needed a:focus {
+	background-color: var(--basic-grey-light);
+}
+
+/* Popular-products */
+
+.headline {
+	background-color: var(--basic-extra-light);
+	text-decoration: none;
+}
+
+.headline h2 {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: var(--basic-dark-gray);
+}
+
+.headline a {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: var(--basic-white);
+	background-color: var(--basic-red);
+}
+
+.catalog-list {
+	background-color: var(--basic-white);
+	list-style: none;
+}
+.catalog-category-item {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	color: var(--basic-black);
+	text-decoration: none;
+}
+
+.catalog-item-price {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
+	color: #A9A9A9;
+}
+
+.btn {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
+	text-align: center;
+	color: var(--basic-white);
+	background-color: var(--basic-red);
+}
+
+/* Popular-firms */
+.banner-firms {
+	list-style: none;
+	background-color: var(--basic-white);
+}
+
+/* Services */
+
+.services,
+.contacts {
+	list-style: none;
+	background-color: var(--basic-dark);
+}
+
+.caption {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-black);
+}
+
+.services p,
+.heading p,
+.contacts p {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+	color: var(--basic-black);
+	text-decoration: none;
+}
+
+ul.services-list li h2 {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+	color: var(--basic-black);;
+}
+
+.button {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--basic-white);
+	background-color: var(--basic-red);
+}
+
+/* Company info */
+
+.heading {
+	background-color: var(--basic-white);
+}
+
+.heading p,
+.about-perforators p {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.list-heading li {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-black);
+	list-style: none;
+	text-decoration: none;
+}
+
+/* Footer */
+
+.footer-navigation-list,
+.footer-navigation-downlist,
+.social {
+	list-style: none;
+}
+
+.footer-up {
+	background-color: var(--basic-dark-gray);
+}
+
+.left-footer-up p {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: #F3F7F9;
+}
+
+.footer-phone {
+	color: #F3F7F9;
+}
+
+.footer-navigation-list a {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-dark);
+}
+
+.footer-navigation-list a:hover {
+	text-decoration: underline;
+}
+
+.footer-navigation-downlist a {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-gold);
+}
+
+.footer-navigation-downlist a:hover {
+	text-decoration: underline;
+}
+
+               /* footer-down */
+
+.footer-down {
+	background-color: #293449;
+}
+
+.copyright span {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--basic-white)
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.communication p {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--basic-white);
+}
+
+.communication a {
+	color: var(--basic-gold);
+}
+
+.communication a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+/* CATALOG */
+
+.user-name {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 21px;
+	color: var(--basic-black);
+}
+
+.orders,
+.account {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--basic-black);
+}
+
+/* Main catalog */
+
+.breadcrumbs-item {
+	list-style: none;
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	color: var(--basic-black);
+	text-transform: uppercase;
+}
+
+.breadcrumbs-list {
+	background-color: var(--basic-white);
+}
+
+h1 {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	color: var(--basic-dark-gray);
+	text-transform: uppercase;
+	background-color: #F2F6F8;
+}
+
+.filter legend {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.filter ul {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 19px;
+	list-style: none;
+}
+
+/* sorting */
+
+.sorting h2 {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.sorting {
+	background-color: #F7F3EC;
+}
+
+.sorting-list {
+	list-style: none;
+}
+
+.sorting-list a {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	opacity: 0.3;
+	text-transform: uppercase;
+	border-bottom: 1px dashed #EE3643;
+}
+
+.sorting-list a:hover {
+	border-bottom: solid #EE3643;
+	opacity: 1;
+}
+
+.pagination-list {
+	font-family: PT Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.about-perforators {
+	background-color: #F1F5F7;
+}
