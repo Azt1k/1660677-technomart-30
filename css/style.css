@@ -20,9 +20,9 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Cuprum", Arial, sans-serif;
-	font-size: 13px;
+	font-size: 18px;
 	line-height: 24px;
-	font-weight: 700;
+	font-weight: 400;
 	color: var(--basic-black);
 	text-transform: none;
 	background-color: var(--basic-white);
@@ -49,8 +49,6 @@ img {
 }
 
 .header-up {
-	font-size: 18px;
-	line-height: 24px;
 	color: var(--basic-white);
 	background-color: var(--basic-dark-blue);
 }
@@ -70,21 +68,19 @@ img {
 }
 
 .telephone {
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 30px;
 	border: 3px solid #FFFFFF;
 }
 
 .header-middle-title p {
-	font-family: Cuprum;
 	font-style: italic;
-	font-weight: normal;
 	font-size: 16px;
 	line-height: 23px;
 	text-decoration: none;
 }
 .address {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 24px;
 	color: var(--basic-dark-gray);
@@ -99,13 +95,10 @@ img {
   color: var(--basic-white);
 }
 .user-navigation a {
-	color: var(--basic-black);
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 21px;
 	line-height: 21px;
 	text-decoration: none;
+	color: var(--basic-black);
 }
 
 .user-navigation a:hover,
@@ -136,9 +129,7 @@ img {
 }
 
 ul.needed li h3 {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 24px;
 	line-height: 30px;
 	color: var(--basic-white);
@@ -164,9 +155,6 @@ ul.needed li h3 {
 }
 
 .headline h2 {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -174,9 +162,6 @@ ul.needed li h3 {
 }
 
 .headline a {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -191,7 +176,7 @@ ul.needed li h3 {
 .catalog-category-item {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 20px;
 	color: var(--basic-black);
@@ -201,7 +186,7 @@ ul.needed li h3 {
 .catalog-item-price {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 17px;
 	line-height: 18px;
 	color: #A9A9A9;
@@ -210,7 +195,7 @@ ul.needed li h3 {
 .btn {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 17px;
 	line-height: 18px;
 	text-align: center;
@@ -233,9 +218,6 @@ ul.needed li h3 {
 }
 
 .caption {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--basic-black);
@@ -246,7 +228,6 @@ ul.needed li h3 {
 .contacts p {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: normal;
 	font-size: 13px;
 	line-height: 24px;
 	color: var(--basic-black);
@@ -254,18 +235,13 @@ ul.needed li h3 {
 }
 
 ul.services-list li h2 {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 21px;
 	line-height: 30px;
 	color: var(--basic-black);;
 }
 
 .button {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 14px;
 	line-height: 18px;
 	color: var(--basic-white);
@@ -282,15 +258,11 @@ ul.services-list li h2 {
 .about-perforators p {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: normal;
 	font-size: 13px;
 	line-height: 24px;
 }
 
 .list-heading li {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--basic-black);
@@ -311,9 +283,6 @@ ul.services-list li h2 {
 }
 
 .left-footer-up p {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: #F3F7F9;
@@ -324,9 +293,6 @@ ul.services-list li h2 {
 }
 
 .footer-navigation-list a {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--basic-dark);
@@ -337,9 +303,6 @@ ul.services-list li h2 {
 }
 
 .footer-navigation-downlist a {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
 	color: var(--basic-gold);
@@ -356,9 +319,6 @@ ul.services-list li h2 {
 }
 
 .copyright span {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 16px;
 	line-height: 18px;
 	color: var(--basic-white)
@@ -369,9 +329,6 @@ ul.services-list li h2 {
 }
 
 .communication p {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 16px;
 	line-height: 18px;
 	color: var(--basic-white);
@@ -391,9 +348,6 @@ ul.services-list li h2 {
 /* CATALOG */
 
 .user-name {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 21px;
 	line-height: 21px;
 	color: var(--basic-black);
@@ -401,9 +355,6 @@ ul.services-list li h2 {
 
 .orders,
 .account {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 16px;
 	line-height: 18px;
 	color: var(--basic-black);
@@ -415,7 +366,6 @@ ul.services-list li h2 {
 	list-style: none;
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: normal;
 	font-size: 13px;
 	line-height: 18px;
 	color: var(--basic-black);
@@ -427,9 +377,6 @@ ul.services-list li h2 {
 }
 
 h1 {
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--basic-dark-gray);
@@ -437,10 +384,14 @@ h1 {
 	background-color: #F2F6F8;
 }
 
+.filters {
+	background-color: var(--basic-white);
+}
+
 .filter legend {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 17px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -449,7 +400,6 @@ h1 {
 .filter ul {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: normal;
 	font-size: 15px;
 	line-height: 19px;
 	list-style: none;
@@ -460,7 +410,6 @@ h1 {
 .sorting h2 {
 	font-family: PT Sans;
 	font-style: normal;
-	font-weight: normal;
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -476,8 +425,6 @@ h1 {
 
 .sorting-list a {
 	font-family: PT Sans;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 13px;
 	line-height: 18px;
 	opacity: 0.3;
@@ -492,12 +439,11 @@ h1 {
 
 .pagination-list {
 	font-family: PT Sans;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 13px;
 	line-height: 18px;
 	list-style: none;
 	text-transform: uppercase;
+	background-color: var(--basic-white);
 }
 
 .about-perforators {
