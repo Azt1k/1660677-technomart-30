@@ -87,6 +87,18 @@ img {
 	text-decoration: none;
 }
 
+.ordering {
+	background-color: #63A63E;
+}
+
+.ordering:hover {
+	background-color: #5FBB2D;
+}
+
+.ordering:focus {
+	background-color: #63A63E;
+	opacity: 0.5;
+}
 
 /* User navigation */
 
@@ -101,17 +113,12 @@ img {
 	color: var(--basic-black);
 }
 
-.user-navigation a:hover,
-.user-navigation a:focus {
+.user-navigation a:hover {
 	color: var(--basic-red);
 }
 
-
-.header-up a:hover,
-.header-up a:focus,
-.site-navigation a:hover,
-.site-navigation a:focus {
-	opacity: 50%;
+.user-navigation a:focus {
+	color: var(--basic-grey-light);
 }
 
 .site-navigation {
@@ -147,6 +154,16 @@ ul.needed li h3 {
 	background-color: var(--basic-grey-light);
 }
 
+.perforator-top {
+	font-family: Cuprum;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 36px;
+	color: var(--basic-white);
+	text-transform: uppercase;
+}
+
 /* Popular-products */
 
 .headline {
@@ -157,6 +174,7 @@ ul.needed li h3 {
 .headline h2 {
 	font-size: 30px;
 	line-height: 30px;
+	font-weight: 400;
 	text-transform: uppercase;
 	color: var(--basic-dark-gray);
 }
@@ -218,9 +236,11 @@ ul.needed li h3 {
 }
 
 .caption {
+	font-weight: 400;
 	font-size: 30px;
 	line-height: 30px;
 	color: var(--basic-black);
+	text-transform: uppercase;
 }
 
 .services p,
@@ -379,6 +399,7 @@ ul.services-list li h2 {
 h1 {
 	font-size: 30px;
 	line-height: 30px;
+	font-weight: 400;
 	color: var(--basic-dark-gray);
 	text-transform: uppercase;
 	background-color: #F2F6F8;
@@ -410,6 +431,7 @@ h1 {
 .sorting h2 {
 	font-family: PT Sans;
 	font-style: normal;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
