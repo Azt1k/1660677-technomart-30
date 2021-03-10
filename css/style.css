@@ -56,8 +56,6 @@ img {
 
 .main-header {
 	margin-bottom: 119px;
-	grid-template-areas: 
-	
 }
 
 .main-header-bar {
@@ -288,6 +286,7 @@ img {
 .index-columns {
 	display: grid;
 	grid-template-columns: 1fr 300px;
+	margin: 0;
 }
 
 .services,
@@ -360,6 +359,7 @@ ul.services-list li h2 {
 }
 
 .footer-up {
+	margin: 0;
 	background-color: var(--basic-dark-gray);
 }
 
@@ -411,6 +411,7 @@ ul.services-list li h2 {
 }
 
 .footer-down {
+	margin: 0;
 	background-color: #293449;
 }
 
@@ -442,6 +443,15 @@ ul.services-list li h2 {
 
 
 /* CATALOG */
+
+.page-filters {
+	display: grid;
+	grid-template-columns: 220px 1fr;
+}
+
+.catalog-perforators {
+	grid-column: 2 / -1;
+}
 
 .user-name {
 	font-size: 21px;
@@ -504,7 +514,7 @@ ul.services-list li h2 {
 
 /* sorting */
 
-.sorting h2 {
+.catalog-head {
 	font-family: PT Sans;
 	font-style: normal;
 	font-weight: 400;
@@ -514,6 +524,7 @@ ul.services-list li h2 {
 }
 
 .sorting {
+	height: 70px;
 	background-color: #F7F3EC;
 }
 
@@ -528,6 +539,10 @@ ul.services-list li h2 {
 	opacity: 0.3;
 	text-transform: uppercase;
 	border-bottom: 1px dashed #EE3643;
+}
+
+.sorting-list li {
+	display: inline;
 }
 
 .sorting-list a:hover {
