@@ -63,12 +63,44 @@ img {
 }
 
 .header-up {
+	display: flex;
 	color: var(--basic-white);
 	width: 940px;
+	height: 42px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 
+.main-header-logo {
+	width: 108px;
+	height: 18px;
+	margin-top: 12px;
+	margin-left: 56px;
+}
+
+
+.header-up-wrapper {
+	display: flex;
+	margin-top: 9px;
+	list-style: none;
+}
+
+.search {
+	margin-top: 9px;
+}
+
+.bookmarks {
+	width: 136px;
+	height: 42px;
+	padding-right: 38px;
+}
+
+.basket {
+	padding-left: 35px;
+	padding-right: 21px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
 
 .header-middle {
 	display: grid;
@@ -90,6 +122,9 @@ img {
 	color: var(--basic-red);
 }
 
+.telephone-address {
+	margin-top: 41px;
+}
 .telephone {
 	font-weight: 700;
 	font-size: 21px;
@@ -111,6 +146,10 @@ img {
 }
 
 .ordering {
+	padding-left: 19px;
+	padding-right: 16px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 	background-color: #63A63E;
 }
 
@@ -231,10 +270,46 @@ img {
 }
 
 .catalog-list {
-	background-color: var(--basic-white);
+	display: flex;
+	flex-wrap: wrap;
+  	padding: 0;
+  	margin: 0;
+  	margin-bottom: 70px;
+	background-color: #5c07e5;
 	list-style: none;
 }
 
+.catalog-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 220px;
+	min-height: 318px;
+	margin-right: 20px;
+	background-color: #fff000;
+}
+
+
+.catalog-item:nth-child(4n) {
+  	margin-right: 0;
+}
+
+.catalog-item h3 {
+	margin-top: 178px;
+	margin-right: 17px;
+	margin-bottom: 97px;
+	margin-left: 18px;
+}
+
+.catalog-item-image {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	width: 100%:;
+	height: auto;
+	margin: 0;
+}
 
 .catalog-category-item {
 	font-family: PT Sans;
